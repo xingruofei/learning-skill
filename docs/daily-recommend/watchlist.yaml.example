@@ -1,0 +1,25 @@
+# 关注清单示例 · 复制为 wiki/sources/watchlist.yaml 后填写
+# 状态：待确认
+
+topics_filter:
+  - ai
+  - agent
+  - testing
+  - 研发
+
+min_quality: B   # 只拉 A/B 级公众号
+
+accounts:
+  - name: 腾讯技术工程
+    quality_tier: A
+    topics: [ai, agent, tech]
+    rss_url: ""   # Phase 2 填入 WeWe RSS feed URL
+    notes: 已收录 1 篇
+
+  - name: 码海拾光
+    quality_tier: B
+    topics: [testing, 研发]
+    rss_url: ""
+    notes: E2E 测试文来源，待订阅
+
+  # 在此追加更多公众号…
