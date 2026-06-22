@@ -79,7 +79,7 @@ wiki/
   sources/watchlist.yaml
   daily/                  # 每日推荐
   seen/urls.txt           # 已处理 URL
-.cursor/skills/
+.agents/skills/
   daily-digest/           # 「今日推荐」skill
 ```
 

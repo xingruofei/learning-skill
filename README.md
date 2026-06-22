@@ -34,7 +34,7 @@ python scripts/search.py --tag ai --status archived
 - **「评价这篇文章值不值得读」** + 链接或正文
 - **「帮我打分」**
 
-首次只返回**简报**（分数 + 读的价值 + Wiki 新/已有对比）。追问才展开细节——速查表见 **[article-evaluator/README.md](.cursor/skills/article-evaluator/README.md)**：
+首次只返回**简报**（分数 + 读的价值 + Wiki 新/已有对比）。追问才展开细节——速查表见 **[article-evaluator/README.md](.agents/skills/article-evaluator/README.md)**：
 
 | 追问 | 得到 |
 |------|------|
@@ -59,7 +59,7 @@ python scripts/search.py --tag ai --status archived
 │   ├── collect.py         # 采集公众号文章
 │   ├── archive.py         # 归档 inbox 文章（幂等）
 │   └── search.py          # 搜索知识库
-└── .cursor/skills/
+└── .agents/skills/
     ├── wechat-wiki/       # 知识库管理
     └── article-evaluator/ # 阅读价值评估
 
